@@ -1,0 +1,39 @@
+.container-custom{
+    display: flex;
+    margin: 5px auto;
+    width: 85%;
+}
+
+.container-custom-2{
+    display: flex;
+    margin: auto;
+    width: 85%;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+    display: block;
+}
+
+@media screen and (max-width:1000px) {
+    .mobile{
+        display: block;
+    }
+    
+    .desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .mobile{
+        display: none;
+    }
+    
+    .desktop{
+        display: block;
+    }
+}
